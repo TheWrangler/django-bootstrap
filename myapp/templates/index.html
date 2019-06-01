@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/static/bootstrap-3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <script src="/static/jquery-3.4.1.min.js"></script>
+    <script src="/static/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+ 
+    <title>Seaglet激光测风雷达数据共享平台</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#responsive-navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src = "/static/img/seaglet.png" width="240" height = "65">
+                </a>
+            </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="responsive-navbar">
+            <p class="navbar-text"><b><font size="6">激光测风雷达数据共享平台</font></b></p>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active">
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="lidar.html">激光雷达</a>
+                </li>
+                <li>
+                    <a href="#">融合产品</a>
+                </li>
+                <li>
+                    <a href="#">T-logP图</a>
+                </li>
+                <li>
+                    <a href="#">统计查询</a>
+                </li>
+                <li>
+                    <a href="#">服务咨询</a>
+                </li>
+                <li>
+                    <a href="#">关于我们</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container  col-lg-2 col-md-2">
+        <div class = "panel panel-default">
+            <div class="panel-heading">观测设备</div>
+            <div class="panel-body">
+                <div class="list-group">
+                    <button type="button" class="list-group-item active">激光雷达</button>
+                    <button type="button" class="list-group-item">风廓线雷达</button>
+                    <button type="button" class="list-group-item">微波辐射计</button>
+                    <button type="button" class="list-group-item">地面风速计</button>
+                </div>
+            </div>
+        </div>
+        <div class = "panel panel-default">
+            <div class="panel-heading">观测高度</div>
+            <div class="panel-body">
+                <div class="list-group">
+                    <button type="button" class="list-group-item active">地面</button>
+                    <button type="button" class="list-group-item">500m</button>
+                    <button type="button" class="list-group-item">1000m</button>
+                    <button type="button" class="list-group-item">1500m</button>
+                    <button type="button" class="list-group-item">2000m</button>
+                    <button type="button" class="list-group-item">2500m</button>
+                    <button type="button" class="list-group-item">3000m</button>
+                    <button type="button" class="list-group-item">4000m</button>
+                    <button type="button" class="list-group-item">5000m</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container col-lg-8 col-md-8">
+        <div class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">思明</a></li>
+            <li role="presentation"><a href="#">湖里</a></li>
+            <li role="presentation"><a href="#">集美</a></li>
+            <li role="presentation"><a href="#">海沧</a></li>
+            <li role="presentation"><a href="#">同安</a></li>
+        </div>
+        <img  class="img-polaroid" src = "/static/img/demo.png">
+        <h4>说明</h4>
+        <p>本数据使用地面风速计采集，参数为500m高度。</p>
+    </div>
+
+    <div class="container  col-lg-2 col-md-2">
+        <div class = "panel panel-default">
+            <div class="panel-heading">历史查询</div>
+            <div class="panel-body">
+                
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
